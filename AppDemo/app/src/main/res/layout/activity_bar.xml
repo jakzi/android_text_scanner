@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#3949AB">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFF"
+            android:textSize="36dp"
+            android:text="IMG to TXT"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_2">
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button2"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:paddingLeft="20dp"
+            android:text="@string/menu_home"
+            android:drawableLeft="@drawable/ic_baseline_home_24" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button2"
+            android:drawableLeft="@drawable/ic_baseline_settings_24"
+            android:paddingLeft="20dp"
+            android:text="@string/menu_save"
+            android:textAlignment="textStart" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#9A9A9A"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/btn_help"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button2"
+            android:drawableLeft="@drawable/ic_baseline_help_24"
+            android:text="@string/menu_help"
+            android:textAlignment="textStart" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#9A9A9A"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"/>
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button2"
+            android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+            android:text="@string/menu_exit"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+</LinearLayout>

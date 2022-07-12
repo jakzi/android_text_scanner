@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppDemo</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_save">Cài đặt</string>
+    <string name="menu_help">Trợ giúp</string>
+    <string name="menu_report">Phản hồi</string>
+    <string name="menu_exit">Thoát</string>
+    <string name="camera">Máy ảnh</string>
+    <string name="gall">Thư viện</string>
+    <string name="send">Gửi</string>
+    <string name="help_view">
+        "
+        Phần mềm giúp chuyển đổi hình ảnh thành văn bản.\n
+        Để sử dụng phần mềm, bấm vào màn hình "Trang chủ"-> chọn 1 trong 2 nút tải nguồn hình ảnh lên là "Máy ảnh" và "Bộ sưu tập".\n
+        Xác nhận hình ảnh cần quét và bấm nút "Quét" để thực hiện chức năng\n
+        ------\n
+        Lưu dùng để lưu trữ các lần quét đã lưu, bạn có thể xóa các mục đã lưu ở đây\n
+        ------\n
+        Phản hồi giúp bạn phản hồi ý kiến góp ý với người phát triển\n
+        ------\n
+        Thoát để thoát khỏi phần mềm\n
+        "
+    </string>
+</resources>
